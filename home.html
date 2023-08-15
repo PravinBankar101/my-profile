@@ -32,6 +32,12 @@
             color: rgb(110, 81, 27);
         }
 
+
+        /* //nested selector(here it means apply property to the --> all li elements inside the class summariesList) */
+        .summariesList li{
+            margin-bottom: 10px;
+        }
+
         
     </style>
 
@@ -48,7 +54,7 @@
 
 
         <h2 class="profSummary">Professional Summary</h2>
-        <ul>
+        <ul class="summariesList">
             <li>Having one years of experience in developing single page Web Application using <span>Angular 8</span>,
                 HTML5, CSS3,
                 Bootstrap5, JavaScript, TypeScript</li>
