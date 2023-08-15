@@ -16,6 +16,8 @@
     .navigationBar{
       text-transform: uppercase;
       text-decoration: none;
+      margin-right: 40px;
+
     }
 
     h2{
@@ -25,11 +27,18 @@
 
     .fontAwesome{
         font: size 20px;
-        color: rgb(19, 158, 47);
+        color: rgb(6, 102, 38);
+        margin-right: 25px;
     }
 
     .headerSpan{
       margin-right: 50px;
+    }
+
+    .footerFont{
+      font-weight: bold;
+      color: #0a1ed4;
+      margin-right: 30px;
     }
 
   </style>
@@ -41,14 +50,14 @@
 <body>
   <header>
 
-    <i class="fa fa-user" aria-hidden="true"></i> <span class="headerSpan">Pravin Bankar</span>
-    <i class="fa fa-phone-square" aria-hidden="true"></i> <span class="headerSpan">9876 9876 98</span> 
-    <i class="fa fa-envelope" aria-hidden="true"></i> <span class="headerSpan">pravinb@gmail.com</span>
+    <i class="fa fa-user" aria-hidden="true"></i> <span class="headerSpan"> Pravin Bankar</span>
+    <i class="fa fa-phone-square" aria-hidden="true"></i> <span class="headerSpan"> 9876 9876 98</span> 
+    <i class="fa fa-envelope" aria-hidden="true"></i> <span class="headerSpan"> pravinb@gmail.com</span>
 
-    
+
     <a href="assets/resume.pdf" download="Pravin Resume">
       <button>
-        <i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download Resume
+        <i class="fa fa-download" aria-hidden="true"></i><span> Download Resume</span> 
       </button>
     </a>
   </header>
@@ -58,13 +67,9 @@
 
   <nav >
     <a class="navigationBar"   href="home.html" target="myFrame">Home</a>
-    &nbsp; &nbsp; &nbsp;
     <a class="navigationBar"   href="techStack.html" target="myFrame">Tech Stack</a>
-    &nbsp;&nbsp; &nbsp;
     <a class="navigationBar"  href="project.html" target="myFrame">Project</a>
-    &nbsp; &nbsp; &nbsp;
     <a class="navigationBar"  href="education.html" target="myFrame">Education</a>
-    &nbsp; &nbsp; &nbsp;
     <a class="navigationBar"   href="aboutMe.html" target="myFrame">About me</a>
   </nav>
 
@@ -76,16 +81,13 @@
 
   <footer>
     <span>
-      <strong>Follow Me On</strong> &nbsp; &nbsp;
+      <!-- <strong>Follow Me On</strong> &nbsp; &nbsp; -->
+      <span class="footerFont">Follow Me On</span>
       <a class="fontAwesome"  href="https://github.com/" target="_blank"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a>
-      &nbsp;&nbsp;&nbsp; &nbsp;
       <a class="fontAwesome"  href="https://www.linkedin.com/" target="_blank"><i class="fa fa-lg fa-linkedin-square"
           aria-hidden="true"></i></a>
-      &nbsp; &nbsp;&nbsp; &nbsp;
       <a class="fontAwesome"  href="https://www.google.com/" target="_blank"><i class="fa fa-lg fa-google" aria-hidden="true"></i></a>
-      &nbsp; &nbsp;&nbsp; &nbsp;
       <a class="fontAwesome"  href="https://www.instagram.com/" target="_blank"><i class="fa fa-lg fa-instagram" aria-hidden="true"></i></a>
-      &nbsp; &nbsp;&nbsp; &nbsp;
       <a class="fontAwesome"  href="https://www.facebook.com/" target="_blank"><i class="fa fa-lg fa-facebook-square"
           aria-hidden="true"></i></a>
     </span>
