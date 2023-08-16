@@ -41,6 +41,24 @@
       margin-right: 30px;
     }
 
+    .navBars li{
+      display: inline-block;
+      /* width: 100px; */
+    }
+
+    .navBars {
+        padding-left: 10px;
+    }
+
+    .footerFontawesIcons li{
+      display: inline-block;
+    }
+
+    .footerFontawesIcons {
+      padding-left: 10px;
+    }
+    
+
   </style>
 
 
@@ -66,11 +84,15 @@
   <br />
 
   <nav >
-    <a class="navigationBar"   href="home.html" target="myFrame">Home</a>
-    <a class="navigationBar"   href="techStack.html" target="myFrame">Tech Stack</a>
-    <a class="navigationBar"  href="project.html" target="myFrame">Project</a>
-    <a class="navigationBar"  href="education.html" target="myFrame">Education</a>
-    <a class="navigationBar"   href="aboutMe.html" target="myFrame">About me</a>
+
+    <ul class="navBars">
+      <li><a class="navigationBar" href="home.html" target="myFrame">Home</a></li>
+      <li><a class="navigationBar" href="techStack.html" target="myFrame">Tech Stack</a></li>
+      <li><a class="navigationBar" href="project.html" target="myFrame">Project</a></li>
+      <li><a class="navigationBar" href="education.html" target="myFrame">Education</a></li>
+      <li><a class="navigationBar" href="aboutMe.html" target="myFrame">About me</a></li>
+    </ul>
+
   </nav>
 
   <br><br>
@@ -80,21 +102,26 @@
   <br><br>
 
   <footer>
-    <span>
-      <!-- <strong>Follow Me On</strong> &nbsp; &nbsp; -->
-      <span class="footerFont">Follow Me On</span>
-      <a class="fontAwesome"  href="https://github.com/" target="_blank"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a>
-      <a class="fontAwesome"  href="https://www.linkedin.com/" target="_blank"><i class="fa fa-lg fa-linkedin-square"
-          aria-hidden="true"></i></a>
-      <a class="fontAwesome"  href="https://www.google.com/" target="_blank"><i class="fa fa-lg fa-google" aria-hidden="true"></i></a>
-      <a class="fontAwesome"  href="https://www.instagram.com/" target="_blank"><i class="fa fa-lg fa-instagram" aria-hidden="true"></i></a>
-      <a class="fontAwesome"  href="https://www.facebook.com/" target="_blank"><i class="fa fa-lg fa-facebook-square"
-          aria-hidden="true"></i></a>
-    </span>
-    <br>
-    <p>Copyright &copy; 2023 This website's all the rights are reserved</p>
-  </footer>
+    
+    <ul class="footerFontawesIcons">
+      <li><span class="footerFont">Follow Me On</span></li>
+      <li><a class="fontAwesome" href="https://github.com/" target="_blank"><i class="fa fa-lg fa-github"
+            aria-hidden="true"></i></a></li>
+      <li><a class="fontAwesome" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-lg fa-linkedin-square"
+            aria-hidden="true"></i></a></li>
+      <li><a class="fontAwesome" href="https://www.google.com/" target="_blank"><i class="fa fa-lg fa-google"
+            aria-hidden="true"></i></a></li>
+      <li><a class="fontAwesome" href="https://www.instagram.com/" target="_blank"><i class="fa fa-lg fa-instagram"
+            aria-hidden="true"></i></a></li>
+      <li><a class="fontAwesome" href="https://www.facebook.com/" target="_blank"><i class="fa fa-lg fa-facebook-square"
+            aria-hidden="true"></i></a></li>
+    </ul>
 
+    <br>
+  
+    <p>Copyright &copy; 2023 This website's all the rights are reserved</p>
+  
+  </footer>
 
 
 </body>
