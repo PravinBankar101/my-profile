@@ -6,76 +6,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Profile</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- google font family links added -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative&family=Sofia&display=swap"
+    rel="stylesheet" />
 
   <style>
     header {
       background-color: azure;
       color: teal;
+      font-family: 'Poppins', sans-serif;
     }
 
-    .navigationBar{
+    .navigationBar {
       text-transform: uppercase;
       text-decoration: none;
       margin-right: 40px;
-
     }
 
-    h2{
-            background-color: #82aec7;
-            color: rgb(110, 81, 27);
+    h2 {
+      background-color: #82aec7;
+      color: rgb(110, 81, 27);
+      font-family: 'Poppins', sans-serif;
     }
 
-    .fontAwesome{
-        font: size 20px;
-        color: rgb(6, 102, 38);
-        margin-right: 25px;
+    .fontAwesome {
+      font: size 20px;
+      color: rgb(6, 102, 38);
+      margin-right: 25px;
     }
 
-    .headerSpan{
+    .headerSpan {
       margin-right: 50px;
     }
 
-    .footerFont{
+    .footerFont {
       font-weight: bold;
       color: #0a1ed4;
       margin-right: 30px;
     }
 
-    .navBars li{
+    .navBars li {
       display: inline-block;
       /* width: 100px; */
     }
 
     .navBars {
-        padding-left: 10px;
+      padding-left: 10px;
+      font-family: 'Poppins', sans-serif;
     }
 
-    .footerFontawesIcons li{
+    .footerFontawesIcons li {
       display: inline-block;
     }
 
     .footerFontawesIcons {
       padding-left: 10px;
+      font-family: 'Poppins', sans-serif;
     }
-    
+
+    #copyright{
+      font-family: 'Sofia', cursive;
+    }
 
   </style>
-
-
 </head>
-
 
 <body>
   <header>
-
-    <i class="fa fa-user" aria-hidden="true"></i> <span class="headerSpan"> Pravin Bankar</span>
-    <i class="fa fa-phone-square" aria-hidden="true"></i> <span class="headerSpan"> 9876 9876 98</span> 
-    <i class="fa fa-envelope" aria-hidden="true"></i> <span class="headerSpan"> pravinb@gmail.com</span>
-
+    <i class="fa fa-user" aria-hidden="true"></i>
+    <span class="headerSpan"> Pravin Bankar</span>
+    <i class="fa fa-phone-square" aria-hidden="true"></i>
+    <span class="headerSpan"> 9876 9876 98</span>
+    <i class="fa fa-envelope" aria-hidden="true"></i>
+    <span class="headerSpan"> pravinb@gmail.com</span>
 
     <a href="assets/resume.pdf" download="Pravin Resume">
       <button>
-        <i class="fa fa-download" aria-hidden="true"></i><span> Download Resume</span> 
+        <i class="fa fa-download" aria-hidden="true"></i><span> Download Resume</span>
       </button>
     </a>
   </header>
@@ -83,47 +93,61 @@
   <br />
   <br />
 
-  <nav >
-
+  <nav>
     <ul class="navBars">
-      <li><a class="navigationBar" href="home.html" target="myFrame">Home</a></li>
-      <li><a class="navigationBar" href="techStack.html" target="myFrame">Tech Stack</a></li>
-      <li><a class="navigationBar" href="project.html" target="myFrame">Project</a></li>
-      <li><a class="navigationBar" href="education.html" target="myFrame">Education</a></li>
-      <li><a class="navigationBar" href="aboutMe.html" target="myFrame">About me</a></li>
+      <li>
+        <a class="navigationBar" href="home.html" target="myFrame">Home</a>
+      </li>
+      <li>
+        <a class="navigationBar" href="techStack.html" target="myFrame">Tech Stack</a>
+      </li>
+      <li>
+        <a class="navigationBar" href="project.html" target="myFrame">Project</a>
+      </li>
+      <li>
+        <a class="navigationBar" href="education.html" target="myFrame">Education</a>
+      </li>
+      <li>
+        <a class="navigationBar" href="aboutMe.html" target="myFrame">About me</a>
+      </li>
     </ul>
-
   </nav>
 
-  <br><br>
+  <br /><br />
 
-  <iframe width="950px" height="550px" name="myFrame" src="home.html" frameborder="0"></iframe>
+  <iframe width="1100px" height="650px" name="myFrame" src="home.html" frameborder="0"></iframe>
 
-  <br><br>
+  <br /><br />
 
   <footer>
-    
     <ul class="footerFontawesIcons">
       <li><span class="footerFont">Follow Me On</span></li>
-      <li><a class="fontAwesome" href="https://github.com/" target="_blank"><i class="fa fa-lg fa-github"
-            aria-hidden="true"></i></a></li>
-      <li><a class="fontAwesome" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-lg fa-linkedin-square"
-            aria-hidden="true"></i></a></li>
-      <li><a class="fontAwesome" href="https://www.google.com/" target="_blank"><i class="fa fa-lg fa-google"
-            aria-hidden="true"></i></a></li>
-      <li><a class="fontAwesome" href="https://www.instagram.com/" target="_blank"><i class="fa fa-lg fa-instagram"
-            aria-hidden="true"></i></a></li>
-      <li><a class="fontAwesome" href="https://www.facebook.com/" target="_blank"><i class="fa fa-lg fa-facebook-square"
-            aria-hidden="true"></i></a></li>
+      <li>
+        <a class="fontAwesome" href="https://github.com/" target="_blank"><i class="fa fa-lg fa-github"
+            aria-hidden="true"></i></a>
+      </li>
+      <li>
+        <a class="fontAwesome" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-lg fa-linkedin-square"
+            aria-hidden="true"></i></a>
+      </li>
+      <li>
+        <a class="fontAwesome" href="https://www.google.com/" target="_blank"><i class="fa fa-lg fa-google"
+            aria-hidden="true"></i></a>
+      </li>
+      <li>
+        <a class="fontAwesome" href="https://www.instagram.com/" target="_blank"><i class="fa fa-lg fa-instagram"
+            aria-hidden="true"></i></a>
+      </li>
+      <li>
+        <a class="fontAwesome" href="https://www.facebook.com/" target="_blank"><i class="fa fa-lg fa-facebook-square"
+            aria-hidden="true"></i></a>
+      </li>
     </ul>
 
-    <br>
-  
-    <p>Copyright &copy; 2023 This website's all the rights are reserved</p>
-  
+    <br />
+
+    <p id="copyright">Copyright &copy; 2023 This website's all the rights are reserved</p>
   </footer>
-
-
 </body>
 
 </html>

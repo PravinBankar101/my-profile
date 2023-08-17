@@ -1,101 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Details</title>
 
-    <style>
-      table,
-      tr,
-      th,
-      td {
-        border: 2px solid rgb(9, 71, 73);
-        border-collapse: collapse;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Details</title>
+   <!-- google font family links added -->
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link
+     href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative&family=Sofia&display=swap"
+     rel="stylesheet" />
 
-      h2{
-            background-color: #82aec7;
-            color: rgb(110, 81, 27);
-      }
+  <style>
+    table,
+    tr,
+    th,
+    td {
+      border: 2px solid rgb(9, 71, 73);
+      border-collapse: collapse;
+      text-align: center;
+      font-family: 'Signika Negative', sans-serif;
+    }
 
-      .contactDetailsMargin{
-        margin-left: 25px;
-      }
+    h2 {
+      background-color: #82aec7;
+      color: rgb(110, 81, 27);
+      font-family: 'Poppins', sans-serif;
+    }
 
-    </style>
-  </head>
+    .contactDetailsMargin {
+      margin-left: 25px;
+    }
 
-  <body>
-    <hr />
+    #name {
+      font-family: 'Signika Negative', sans-serif;
+    }
 
-    <h2>My Personal Details</h2>
+    #contactDetails {
+      font-family: 'Signika Negative', sans-serif;
+    }
 
-    <img
-      src="assets/developer.png"
-      width="150px"
-      height="150px"
-      alt="Developer profile photo"
-    />
+    .technologyStackList {
+      font-family: 'Signika Negative', sans-serif;
+    }
+  </style>
+</head>
 
-    <p><strong>Name: </strong>  Pravin Bankar</p>
+<body>
+  <hr />
 
-    <h2>Contact Details</h2>
+  <h2>My Personal Details</h2>
 
-    <p>
-      <strong class="contactDetailsMargin">Mobile:</strong> 123456 690 90 <br />
-       <strong  class="contactDetailsMargin">Email:</strong> pravin@gmail.com
-    </p>
+  <img src="assets/developer.png" width="150px" height="150px" alt="Developer profile photo" />
 
-    <hr />
+  <p id="name"><strong>Name: </strong> Pravin Bankar</p>
 
-    <h2>My Technology Stack</h2>
+  <h2>Contact Details</h2>
 
-    <ul>
-      <li><strong>HTML5</strong></li>
-      <li><strong>CSS</strong></li>
-      <li><strong>JavaScript</strong></li>
-      <li><strong> Angular</strong></li>
-    </ul>
+  <p id="contactDetails">
+    <strong class="contactDetailsMargin">Mobile:</strong> 123456 690 90 <br />
+    <strong class="contactDetailsMargin">Email:</strong> pravin@gmail.com
+  </p>
 
-    <hr />
+  <hr />
 
-    <h2>Academic Details</h2>
+  <h2>My Technology Stack</h2>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Sr. No</th>
-          <th>Academic</th>
-          <th>College Name</th>
-          <th>University / Board</th>
-        </tr>
-      </thead>
+  <ul class="technologyStackList">
+    <li><strong>HTML5</strong></li>
+    <li><strong>CSS</strong></li>
+    <li><strong>JavaScript</strong></li>
+    <li><strong> Angular</strong></li>
+  </ul>
 
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Graduation</td>
-          <td>COEP College</td>
-          <td>Pune University</td>
-        </tr>
+  <hr />
 
-        <tr>
-          <td>2</td>
-          <td>HSC or 12th</td>
-          <td>The Lexicon International School</td>
-          <td>Maharashtra Divisional Board</td>
-        </tr>
+  <h2>Academic Details</h2>
 
-        <tr>
-          <td>3</td>
-          <td>SSC or 10th</td>
-          <td>Indus International School</td>
-          <td>Maharashtra Divisional Board</td>
-        </tr>
-      </tbody>
-    </table>
+  <table>
+    <thead>
+      <tr>
+        <th>Sr. No</th>
+        <th>Academic</th>
+        <th>College Name</th>
+        <th>University / Board</th>
+      </tr>
+    </thead>
 
-    <hr />
-  </body>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Graduation</td>
+        <td>COEP College</td>
+        <td>Pune University</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>HSC or 12th</td>
+        <td>The Lexicon International School</td>
+        <td>Maharashtra Divisional Board</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>SSC or 10th</td>
+        <td>Indus International School</td>
+        <td>Maharashtra Divisional Board</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr />
+</body>
+
 </html>

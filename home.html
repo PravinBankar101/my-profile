@@ -5,6 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+     <!-- google font family links added -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative&family=Sofia&display=swap"
+    rel="stylesheet" />
+
     <style>
         #career {
             background-color: lightsteelblue;
@@ -30,12 +38,18 @@
         h2{
             background-color: #82aec7;
             color: rgb(110, 81, 27);
+            font-family: 'Poppins', sans-serif;
         }
 
 
         /* //nested selector(here it means apply property to the --> all li elements inside the class summariesList) */
         .summariesList li{
             margin-bottom: 10px;
+            font-family: 'Signika Negative', sans-serif;
+        }
+
+        .careerObjective{
+            font-family: 'Signika Negative', sans-serif;
         }
 
         
@@ -47,7 +61,7 @@
 
     <div>
         <h2 id="career">Career Objectives</h2>
-        <p>
+        <p class="careerObjective">
             TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP
             ORGANIZATIONAL GROWTH.
         </p>
