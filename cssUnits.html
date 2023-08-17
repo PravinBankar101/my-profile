@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Units</title>
+    <style>
+      div {
+        font-size: 20px;
+      }
+
+      .summary p {
+        font-size: 2em;
+        /*it is 2 times the size of its parent element(here its parent element is- div element). Hence here it is 2 times the size of div element.*/
+      }
+
+      .address p {
+        font-size: 2rem;
+        /* it is 2 times the size of its root element(here its root element is- html element). Hence here it is 2 times the size of html element. */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="summary">
+      <p>Professional Summary</p>
+    </div>
+
+    <div class="address">
+      <p>Permanent Address</p>
+    </div>
+  </body>
+</html>
