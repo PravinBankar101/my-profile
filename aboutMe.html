@@ -5,12 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Personal Details</title>
-   <!-- google font family links added -->
-   <link rel="preconnect" href="https://fonts.googleapis.com" />
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-   <link
-     href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative&family=Sofia&display=swap"
-     rel="stylesheet" />
+  <!-- google font family links added -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative&family=Sofia&display=swap"
+    rel="stylesheet" />
 
   <style>
     table,
@@ -20,13 +20,13 @@
       border: 2px solid rgb(9, 71, 73);
       border-collapse: collapse;
       text-align: center;
-      font-family: 'Signika Negative', sans-serif;
+      font-family: "Signika Negative", sans-serif;
     }
 
     h2 {
       background-color: #82aec7;
       color: rgb(110, 81, 27);
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
     }
 
     .contactDetailsMargin {
@@ -34,15 +34,35 @@
     }
 
     #name {
-      font-family: 'Signika Negative', sans-serif;
+      font-family: "Signika Negative", sans-serif;
     }
 
     #contactDetails {
-      font-family: 'Signika Negative', sans-serif;
+      font-family: "Signika Negative", sans-serif;
     }
 
     .technologyStackList {
-      font-family: 'Signika Negative', sans-serif;
+      font-family: "Signika Negative", sans-serif;
+    }
+
+    tbody tr:hover {
+      /* //it will apply css properties to all the rows in tbody. */
+      background-color: rgb(224, 243, 116);
+    }
+
+    tr:last-child {
+      /* //it will apply css properties to the last row. */
+      background-color: rgb(183, 104, 185);
+    }
+
+    /* tr:nth-child(1) { */
+    /* //it will apply css properties to the 1st row. */
+    /* background-color : rgb(211, 24, 39); */
+    /* } */
+
+    tr:nth-child(even) {
+      /* //it will apply css properties to the even numbered rows */
+      background-color: rgb(76, 180, 194);
     }
   </style>
 </head>

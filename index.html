@@ -17,7 +17,7 @@
     header {
       background-color: azure;
       color: teal;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
     }
 
     .navigationBar {
@@ -29,7 +29,7 @@
     h2 {
       background-color: #82aec7;
       color: rgb(110, 81, 27);
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
     }
 
     .fontAwesome {
@@ -55,8 +55,12 @@
 
     .navBars {
       padding-left: 10px;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
     }
+
+    /* .navigationBar:hover {
+      color: rgb(224, 14, 154);
+    } */
 
     .footerFontawesIcons li {
       display: inline-block;
@@ -64,13 +68,19 @@
 
     .footerFontawesIcons {
       padding-left: 10px;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
     }
 
-    #copyright{
-      font-family: 'Sofia', cursive;
+    #copyright {
+      font-family: "Sofia", cursive;
     }
 
+    /* //Pseudo class 'hover' added- for the links in anchor tag having its parent element as navigation tag*/
+
+    nav ul li a:hover {
+      /* or--> .navigationBar:hover{    } */
+      color: rgb(19, 170, 39);
+    }
   </style>
 </head>
 
@@ -146,7 +156,9 @@
 
     <br />
 
-    <p id="copyright">Copyright &copy; 2023 This website's all the rights are reserved</p>
+    <p id="copyright">
+      Copyright &copy; 2023 This website's all the rights are reserved
+    </p>
   </footer>
 </body>
 
