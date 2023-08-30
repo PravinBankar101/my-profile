@@ -1,0 +1,136 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Positioning</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .basic {
+        box-shadow: 1px 1px 4px 0px rgb(194, 193, 193);
+        width: 18%;
+        position: absolute;
+        left: 209px;
+        top: 140px;
+        border-radius: 8px;
+      }
+      .heading {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        display: block;
+        text-align: center;
+        background-color: #348f50;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        font-size: 1.5rem;
+        font-family: "Roboto Slab", serif;
+      }
+      .list {
+        margin-left: 10px;
+        display: block;
+        font-family: "Open Sans", sans-serif;
+        margin-left: 30px;
+        list-style-type: none;
+        font-size: 1.2rem;
+      }
+      .fa.fa-times {
+        color: #d72d2d;
+      }
+      .fa.fa-check {
+        color: #348f50;
+      }
+      .money {
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: "Roboto Slab", serif;
+      }
+      .standard1 {
+        box-shadow: 1px 1px 4px 0px rgb(194, 193, 193);
+        width: 18%;
+        position: absolute;
+        left: 518px;
+        top: 97px;
+        border-radius: 8px;
+      }
+      .standard1 .heading {
+        background-color: #d72d2d;
+      }
+      .standard2 {
+        box-shadow: 1px 1px 4px 0px rgb(194, 193, 193);
+        width: 18%;
+        position: absolute;
+        left: 824px;
+        top: 138px;
+        border-radius: 8px;
+      }
+      button {
+        border: none;
+        display: block;
+        margin: 20px 34px;
+        padding: 10px 26px;
+        width: 75%;
+        border-radius: 6px;
+        background-color: #348f50;
+        font-family: "Roboto Slab", serif;
+        color: white;
+        font-size: 1rem;
+      }
+      button:hover{
+        background-color: rgb(12, 72, 100);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="basic">
+      <span class="heading">Basic</span>
+      <ul class="list">
+        <li><i class="fa fa-check" aria-hidden="true"></i>Hosting</li>
+        <li><i class="fa fa-times" aria-hidden="true"></i> Domain</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>1 GB Space</li>
+        <li><i class="fa fa-times" aria-hidden="true"></i> Free SSL</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>1 Website Host</li>
+      </ul>
+      <span class="money">&dollar;5</span>
+      <button type="submit">Buy Now</button>
+    </div>
+    <div class="standard1">
+      <span class="heading">Standard</span>
+      <ul class="list">
+        <li><i class="fa fa-check" aria-hidden="true"></i>Hosting</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>Domain</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>10 GB Space</li>
+        <li><i class="fa fa-times" aria-hidden="true"></i> Free SSL</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>4 Website Host</li>
+      </ul>
+      <span class="money">&dollar;10</span>
+      <button type="submit">Buy Now</button>
+    </div>
+    <div class="standard2">
+      <span class="heading">Standard</span>
+      <ul class="list">
+        <li><i class="fa fa-check" aria-hidden="true"></i>Hosting</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>Domain</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>10 GB Space</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>Free SSL</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>4 Website Host</li>
+      </ul>
+      <span class="money">&dollar;20</span>
+      <button type="submit">Buy Now</button>
+    </div>
+  </body>
+</html>
